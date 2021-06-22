@@ -34,7 +34,6 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'apps.auth_app',
     'apps.yuml_app',
-    'apps.yamltime_app',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
