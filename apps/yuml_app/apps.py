@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class YumlConfig(AppConfig):
-    name = 'yuml'
+    name = 'yuml_app'
