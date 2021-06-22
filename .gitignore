@@ -1,1 +1,35 @@
 ansirable/secret.py
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+
+# Backup files # 
+*.bak
+
+# pyenv
+.python-version
+
+#DB
+*.sqlite3
+
+# virtualenv
+.venv
+venv/
+ENV/
+.vscode
+
+# Ignore Django Migrations in Development if you are working on team
+# Only for Development only
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
